@@ -1,0 +1,15 @@
+######Added For Git#######
+alias au='git add -u'		# add updated ones only.
+alias A='git add -A'		# add everything.
+alias aa='git add .'		# add all updates.
+alias b='git branch'		# 
+alias ch='git checkout'		# 
+alias gc='git clone'		# clone a repo.
+alias gcm='git commit -m'	# add a commit message
+alias gf='git fetch'		# fetch repo.
+alias puo='git pull origin'	# pull repo.
+alias pu='git push origin'	# push repo.
+alias gs='git status'		# get status.
+alias gt='git tag'		# add a tag.
+alias gnt='git tag -a'		# add a new tag.
+alias config='/usr/bin/git --git-dir=/home/kali/.termux-kali/ --work-tree=/home/kali'
