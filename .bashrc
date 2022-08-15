@@ -155,8 +155,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-##adding custom aliases
-#if [ -f ~/.alias_tk_4r6h ]; then
-#    . ~/.alias_tk_4r6h
-#fi
+#adding custom aliases
+if [ -f ~/.alias_tk_4r6h ]; then
+    . ~/.alias_tk_4r6h
+fi
 

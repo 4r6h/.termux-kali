@@ -12,4 +12,10 @@ alias pu='git push origin'	# push repo.
 alias gs='git status'		# get status.
 alias gt='git tag'		# add a tag.
 alias gnt='git tag -a'		# add a new tag.
+
+######Added For Git bare repo .termux-kali#######
 alias config='/usr/bin/git --git-dir=/home/kali/.termux-kali/ --work-tree=/home/kali'
+alias constat='config status'
+alias conadd='config add'
+alias conmit="config commit "$1""
+alias conpush='config push 4r6h'
