@@ -1,0 +1,8 @@
+config status
+ 2284  vim .gitconfig
+ 2285  config add .bashrc
+ 2286  config push
+ 2287  config remote add .termux-kali git@github.com:4r6h/.termux-kali.git
+ 2288  config remote add 4r6h git@github.com:4r6h/.termux-kali.git
+ 2289  git push 4r6h
+ 2290  config push 4r6h
