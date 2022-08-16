@@ -5,7 +5,7 @@ alias aa='git add .'		# add all updates.
 alias b='git branch'		# 
 alias ch='git checkout'		# 
 alias gc='git clone'		# clone a repo.
-alias gcm='git commit -m'	# add a commit message
+alias gcm="git commit -m "$1""	# add a commit message
 alias gf='git fetch'		# fetch repo.
 alias puo='git pull origin'	# pull repo.
 alias pu='git push origin'	# push repo.
@@ -17,5 +17,5 @@ alias gnt='git tag -a'		# add a new tag.
 alias config='/usr/bin/git --git-dir=/home/kali/.termux-kali/ --work-tree=/home/kali'
 alias constat='config status'
 alias conadd='config add'
-alias conmit="config commit "$1""
+alias conmit="config commit -m "$1""
 alias conpush='config push 4r6h'
