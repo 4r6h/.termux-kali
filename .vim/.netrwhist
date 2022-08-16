@@ -1,5 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/opt/test/My-Xfce4-Desktop/raw.githubusercontent.com/4r6h'
+let g:netrw_dirhist_8='/opt/test/My-Xfce4-Desktop/raw.githubusercontent.com/4r6h/ArchyMirrorsBD'
+let g:netrw_dirhist_7='/opt/test/My-Xfce4-Desktop/raw.githubusercontent.com/4r6h'
+let g:netrw_dirhist_6='/opt/test/My-Xfce4-Desktop/raw.githubusercontent.com'
 let g:netrw_dirhist_5='/tmp/ssh-XXXXXX2aqYm7'
 let g:netrw_dirhist_4='/tmp'
 let g:netrw_dirhist_3='/tmp/runtime-kali'
