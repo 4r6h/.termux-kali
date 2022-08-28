@@ -1,17 +1,29 @@
+
+######Added For Shell########
+alias vbc='vim ~/.bashrc'
+alias sbrc='source ~/.bashrc'
+alias vali='vim ~/.alias_tk_4r6h'
+
 ######Added For Git#######
-alias au='git add -u'		# add updated ones only.
-alias A='git add -A'		# add everything.
-alias aa='git add .'		# add all updates.
-alias b='git branch'		# 
-alias ch='git checkout'		# 
-alias gc='git clone'		# clone a repo.
-alias gcm="git commit -m "$1""	# add a commit message
-alias gf='git fetch'		# fetch repo.
-alias puo='git pull origin'	# pull repo.
-alias pu='git push origin'	# push repo.
-alias gs='git status'		# get status.
-alias gt='git tag'		# add a tag.
-alias gnt='git tag -a'		# add a new tag.
+alias au='git add -u'			# add updated ones only.
+alias A='git add -A'			# add everything.
+alias aa='git add .'			# add all updates.
+alias b='git branch'			# 
+alias ch='git checkout'			# 
+alias gc='git clone'			# clone a repo.
+alias gcm='git commit -m'		# add a commit message
+alias gf='git fetch'			# fetch repo.
+alias puo='git pull origin'		# pull repo.
+alias pu='git push origin'		# push repo.
+alias gs='git status'			# get status.
+alias gt='git tag'			# add a tag.
+alias gnt='git tag -a'			# add a new tag.
+alias gr='git restore'			# restores the file if modified.
+alias grs='git restore --staged'	# restores the file if commited.
+
+
+######Added For Multi-Git-Status########
+alias mgs='mgitstatus'
 
 ######Added For Git bare repo .termux-kali#######
 alias config='/usr/bin/git --git-dir=/home/kali/.termux-kali/ --work-tree=/home/kali'
@@ -19,3 +31,6 @@ alias constat='config status'
 alias conadd='config add'
 alias conmit="config commit -m "$1""
 alias conpush='config push 4r6h'
+
+alias gd="/opt/github/"
+alias cgd="cd /opt/github/"
